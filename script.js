@@ -73,7 +73,7 @@ function handleCellClick(event) {
 }
 
 function setWinner(a, b, c) {
-    turnMessage.innerText = `${currentPlayer}, congratulations you won!`;
+    turnMessage.innerText = `${currentPlayer} congratulations you won!`;
     document.getElementById(a).classList.add('winner');
     document.getElementById(b).classList.add('winner');
     document.getElementById(c).classList.add('winner');
